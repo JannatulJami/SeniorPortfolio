@@ -1,1 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B");
 
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #ffd2e3;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+header{
+  position: relative;
+  justify-content: space-between;
+  background: none;
+  display: flex;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1 rem 9%;
+  margin-top: 20px;
+  bottom-padding: 1 rem 5%;  
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+  padding-bottom: 1rem;
+}
+
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+  
+
+.content{  
+  border-radius: 40px;        /* Rounded inner border */
+  margin: 80px;               /* Creates the border space */
+  padding: 1rem;
+  min-height: 90vh;  /* Make sure it fills at least one screen height */
+  box-shadow: 0 0 0 50px #ffe2f5; 
+}
+
+.home-content{
+  font-weight: 200;
+  font-size: 1.5rem;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+.home{
+  display: flex;
+  align-items: center;
+  justify-position: center;
+  gap: 8rem;
+  color: whitesmoke;
+}
+
+.computer{
+  width: 110%;
+  border-radius: 20%;
+}
+.services {
+  padding: 60px 20px;
+  background-color: #ffd2e3;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #f7e3fc;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover{
+  transform: scale(1.1);
+
+}
+
+.card.highlight {
+  background-color: #d8a6e3;
+  color: #fff;
+}
+
+.card .icon {
+  background-color: #d8a6e3;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: whitesmoke;
+}
+
+.card p {
+  font-size: 14px;
+  color: whitesmoke;
+}
+
+.card.highlight p {
+  color: #fff;
+}
