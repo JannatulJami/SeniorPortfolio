@@ -24,3 +24,58 @@
   <div class = "home-img">
     <img class = "me" src="jannatul.jpg" />
   </div>
+
+  <div class="card">
+<!-- NAVIGATION -->
+<div class="nav">
+<button class="active" onclick="showPage('home')">home</button>
+<button onclick="showPage('art')">art</button>
+<button onclick="showPage('build')">build</button>
+<button onclick="showPage('about')">about</button>
+</div>
+    <!-- HOME -->
+    <div id="home" class="page active">
+      <div class="profile">
+        <img src="https://i.imgur.com/0y0y0y0.png" alt="profile" />
+        <div>
+          <h2>Welcome ♡</h2>
+          <p>student • builder • finance + tech</p>
+        </div>
+      </div>
+      <p>hi! this is my caard‑style portfolio. i build projects in fintech, research search, and media.</p>
+    </div>
+    <!-- ART -->
+    <div id="art" class="page">
+      <h2>Art & Design</h2>
+      <p>• pastel UI concepts<br>• brand mockups<br>• procreate designs</p>
+    </div>
+    
+    <!-- BUILD -->
+    <div id="build" class="page">
+      <h2>Projects</h2>
+      <p>• FinLytics<br>• STEM media platform<br>• fintech mini‑apps</p>
+    </div>
+    <div id="about" class="page">
+      <h2>My Links</h2>
+      <div class="socials">
+        <button>Twitter</button>
+        <button>TikTok</button>
+        <button>Instagram</button>
+        <button>GitHub</button>
+      </div>
+    </div>
+  </div>
+
+
+<script>
+  function showPage(pageId) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.nav button').forEach(b => b.classList.remove('active'));
+    document.getElementById(pageId).classList.add('active');
+    event.target.classList.add('active');
+}
+</script>
+
+
+</body>
+</html>
