@@ -38,7 +38,8 @@ body {
   margin: 80px;               /* Creates the border space */
   padding: 1rem;
   min-height: 90vh;  /* Make sure it fills at least one screen height */
-  box-shadow: 0 0 0 50px #D9A5A5; 
+  box-shadow: 0 0 0 50px #D9A0A0; 
+  background-color: #D9A0A0;
 }
 
 .home-content{
