@@ -54,7 +54,10 @@ body {
   gap: 8rem;
   color: whitesmoke;
 }
-
+.home img{
+  width: 50%;
+  height: 50%;
+}
 .computer{
   width: 110%;
   border-radius: 20%;
