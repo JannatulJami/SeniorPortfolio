@@ -117,8 +117,8 @@ body {
 }
 
 .card {
-width: 360px;
-background: var(--pink-bg);
+  width: 360px;
+  background: var(--pink-bg);
 border-radius: 18px;
 padding: 16px;
 box-shadow: 0 20px 40px rgba(0,0,0,0.15);
@@ -134,19 +134,74 @@ margin-bottom: 12px;
 
 
 .nav button {
-flex: 1;
-margin: 0 4px;
-background: var(--pink-btn);
-border: none;
-border-radius: 12px;
-padding: 6px 0;
-font-size: 12px;
-cursor: pointer;
-color: var(--pink-text);
+  flex: 1;
+  margin: 0 4px;
+  background: var(--pink-btn);
+  border: none;
+  border-radius: 12px;
+  padding: 6px 0;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--pink-text);
 }
 
 
 .nav button.active {
-background: var(--pink-dark);
-color: white;
+  background: var(--pink-dark);
+  color: white;
+}
+
+.page {
+  display: none;
+  background: var(--white);
+  border-radius: 14px;
+  padding: 14px;
+  min-height: 280px;
+}
+
+
+.page.active {
+display: block;
+}
+
+
+.profile {
+display: flex;
+gap: 12px;
+align-items: center;
+margin-bottom: 10px;
+}
+
+
+.profile img {
+  width: 70px;
+height: 70px;
+border-radius: 50%;
+object-fit: cover;
+border: 3px solid var(--pink-dark);
+}
+
+
+h2 {
+font-size: 18px;
+color: var(--pink-text);
+}
+
+
+p {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #555;
+}
+
+
+.socials button {
+  width: 100%;
+margin: 6px 0;
+padding: 8px;
+border: none;
+border-radius: 10px;
+background: var(--pink-btn);
+cursor: pointer;
+font-size: 13px;
 }
