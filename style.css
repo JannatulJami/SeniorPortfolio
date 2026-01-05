@@ -115,3 +115,38 @@ body {
 .card.highlight p {
   color: #fff;
 }
+
+.card {
+width: 360px;
+background: var(--pink-bg);
+border-radius: 18px;
+padding: 16px;
+box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+border: 3px solid #ffd6e4;
+}
+
+
+.nav {
+display: flex;
+justify-content: space-between;
+margin-bottom: 12px;
+}
+
+
+.nav button {
+flex: 1;
+margin: 0 4px;
+background: var(--pink-btn);
+border: none;
+border-radius: 12px;
+padding: 6px 0;
+font-size: 12px;
+cursor: pointer;
+color: var(--pink-text);
+}
+
+
+.nav button.active {
+background: var(--pink-dark);
+color: white;
+}
